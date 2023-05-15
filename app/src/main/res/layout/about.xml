@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    tools:context=".About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:background="@drawable/bg_dialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@+id/LinearLayout"
+            android:background="@drawable/gradient_dialog"
+            android:layout_width="300dp"
+            android:layout_height="230dp">
+
+            <ImageView
+                app:srcCompat="@drawable/developer_img"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                tools:ignore="VectorDrawableCompat" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtclose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/close"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="300dp"
+            android:layout_height="95dp">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#202020"
+                android:padding="13dp"
+                android:text=" Name: Liton Kumar \n Level: Developer \n Age: 23 Years"
+                android:background="@drawable/developer_bg"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradient_dialog_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/facebook"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Facebook"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</RelativeLayout>

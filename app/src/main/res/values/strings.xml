@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">All in one games</string>
+
+    <string name="admob_application_id">ca-app-pub-7076187754168943~2334769044</string>
+    <string name="admob_interstitial">ca-app-pub-7076187754168943/7518774977</string>
+    <string name="admob_banner">ca-app-pub-7076187754168943/4612575887</string>
+
+</resources>
